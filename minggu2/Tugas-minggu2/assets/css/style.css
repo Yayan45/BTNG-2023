@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px whitesmoke;
+}
+header .logo{
+    color:black;
+    height: 60;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    padding-top: 10px;
+}
+header nav{
+    float: right;
+
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: rgb(0, 0, 0);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    flex: 1;
+    max-width: 550px;
+    height: 300px;
+
+}
+.sidebar .quote h1{
+    margin-top: -29px;
+    margin-bottom: -17px;
+    color: orange;
+    font-family: 'Lilita One', cursive;
+    font-size: 39px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    max-width: 650px;
+    height: 400px;
+
+  
+}
+.icon{
+    margin-left:-45px;
+    margin-top: -10px;
+}
+.icon ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3px;
+}
+.selengkapnya{
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+
+.selengkapnya button{
+    cursor: pointer;
+    padding: 10px;
+    color: orange;
+    border: none;
+
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px orange;
+}
+
+.gambar{
+    margin-top: 100px;
+}
+.gambar img{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header ul li a:hover,
+header nav ul li a.active{
+
+    color: orange;
+}
+@media (max-width: 650px) {
+    header .logo{
+        margin-left: 45%;
+    }
+    .row{
+        margin-top: 130px;
+        flex-direction: column;
+    }
+    .sidebar{
+        justify-content: center;
+        align-items: center;
+    }
+    .quote{
+     margin-left: 35px;
+     margin-bottom: 20px;
+     
+    }
+
+}

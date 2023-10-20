@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Belajar Bootstrap</title>
+</head>
+<body>
+    
+    <div class="p-4  bg-info"></div>
+    <h1 class="text-center">Awoksoawsko</h1>
+    <h1 class="text-end">Awoksoawsko</h1>
+    <h1 class="text-start">Awoksoawsko</h1>
+    <h1 class="text-center text-secondary font-monospace bg-secondary fw-bolder shadow-sm p-3 mb-5 bg-body rounded">Yayan Rif'an Awaludin</h1>
+
+    <!-- Display flex -->
+    <div class="container d-flex">
+    <div class="p-3 bg-danger text-light fw-bolder">Box 1</div>
+    <div class="p-3 bg-warning text-success fw-bolder">Box 1</div>
+    <div class="p-3 bg-info text-primary fw-bolder">Box 1</div>
+    </div><br>
+
+    <div class="container d-flex flex-row-reverse">
+    <div class="p-3 bg-danger text-light fw-bolder">Box 1</div>
+    <div class="p-3 bg-warning text-success fw-bolder">Box 1</div>
+    <div class="p-3 bg-info text-primary fw-bolder">Box 1</div>
+    </div><br>
+
+    <div class="container d-flex justify-content-between">
+    <div class="p-3 bg-danger text-light fw-bolder">Box 1</div>
+    <div class="p-3 bg-warning text-success fw-bolder">Box 1</div>
+    <div class="p-3 bg-info text-primary fw-bolder">Box 1</div>
+    </div><br>
+
+    <div class="container d-flex justify-content-around">
+    <div class="p-3 bg-danger text-light fw-bolder">Box 1</div>
+    <div class="p-3 bg-warning text-success fw-bolder">Box 1</div>
+    <div class="p-3 bg-info text-primary fw-bolder">Box 1</div>
+    </div>
+
+    <!-- border -->
+    <div class="container">
+            <div class="p-3 bg-info text-light fw-bolder border border-secondary border-5  mt-4 text-center">Border</div>
+    </div>
+
+    <!-- border Radius -->
+    <div class="container">
+            <div class="p-3 bg-info text-light fw-bolder border border-secondary border-5  mt-4 text-center rounded-circle h-20">Border</div>
+    </div><br>
+
+<!-- Grid sistem -->
+    <div class="row">
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+        <div class="col-1 bg-danger text-light">col-1</div>
+    </div><br>
+    <div class="row">
+        <div class="col-6 bg-success">Col-6</div>
+        <div class="col-6 bg-info">Col-6</div>
+    </div><br>
+    <div class="row">
+        <div class="col-8 bg-info">Col-8</div>
+        <div class="col-4 bg-success">Col-4</div>
+    </div>
+
+    <div class="row">
+    <div class="col-12 mt-4 bg-secondary text-center p-4 text-light">Judul Halaman</div>
+    </div>
+    <div class="row">
+    <div class="col-4 bg-success">
+        <ul>
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+        </ul>
+    </div>
+    <div class="col-8 bg-info">
+        <div class="row">
+            <div class="col-3 p-2">
+                <div class="card" style="width: 12rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 mt-2">
+                <div class="card" style="width: 12rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p2 mt-2">
+                <div class="card" style="width: 12rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 p2 mt-2">
+                <div class="card" style="width: 12rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center p-3 bg-primary">
+            footer
+        </div>
+    </div>
+    </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
